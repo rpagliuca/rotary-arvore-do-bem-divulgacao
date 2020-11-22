@@ -1,9 +1,5 @@
-# React Stopwatch
+# Código-fonte da página de divulgação do projeto Árvore do Bem
 
-![](https://api.travis-ci.org/rpagliuca/react-stopwatch.svg?branch=main)
+Live at: https://arvoredobemcotia.com.br/divulgue
 
-Live at: https://rpagliuca.github.io/react-stopwatch/
-
-This is a stopwatch web app with lots of useful keyboard shortcuts.
-
-Built with ReactJS.
+Construído com ReactJS.
