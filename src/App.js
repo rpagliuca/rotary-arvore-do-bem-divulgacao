@@ -31,7 +31,7 @@ function App() {
     <rs.Container>
 
       <h1 style={{color: cycleTheme()[0]}}>Árvore do Bem</h1>
-      <h2 style={{color: cycleTheme()[0]}}>Contamos com sua ajuda para divulgar!</h2>
+      <h3 style={{color: cycleTheme()[0]}}>Sua ajuda na divulgação é (muuuito) importante!</h3>
 
       <rs.Row>
 
@@ -51,18 +51,19 @@ function App() {
           * Data limite para doação: 18/12/2020<br/><br/>
         </MyCard>
 
-        <MyCard theme={cycleTheme()} title="Texto básico para compartilhamento">
+        <MyCard theme={cycleTheme()} subtitle="Está sem criatividade? Copie e compartilhe o texto abaixo." title="Texto básico para compartilhamento">
           Distribua alegria neste Natal!
           www.arvoredobemcotia.com.br
         </MyCard>
 
-        <MyCard theme={cycleTheme()}  title="Dica 1" subtitle="Abuse das redes sociais">Compartilhe as artes acima nas suas redes sociais: Whatsapp, Instagram, Facebook</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 5" subtitle="Mensagem direta">Em todas as redes sociais: envie mensagem direta para seus amigos e familiares mais próximos.</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 2" subtitle="Instagram - Link clicável">Para gerar um link clicável no Instagram, primeiro adicione o link do projeto na sua Bio. Depois publique um post e avise que o link pode ser encontrado na Bio.</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 6" subtitle="Instagram - Stories">Personalize com GIFs, emoticons e outras personalizações</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 3" subtitle="Whatsapp - Grupos que você administra">Altere o nome do grupo, adicionando o nome do projeto, para fazer uma divulgação permanente. Exemplo: alterar nome do grupo "Moradores do Bloco D" para "[Árvore do Bem] Moradores do Bloco D"</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 4" subtitle="Whatsapp - Outros grupos">Compartilhe as artes juntamente com um texto personalizado de sua autoria, contextualizando o projeto, e preferencialmente em horário que o grupo esteja menos ativo.</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 7" subtitle="Whatsapp - Status">Poste dois status em seguida. O primeiro status contendo apenas a arte, e o segundo contendo o link. Coloque o link dentro da foto, e não na legenda.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 1" subtitle="Abuse das redes sociais">Compartilhe as artes do projeto em todas as suas redes sociais: Whatsapp, Instagram, Facebook.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 2" subtitle="Faça rodízio das artes">Você pode fazer novas publicações diariamente, ou na frequência que preferir. Para aumentar o dinamismo e engajamento, alterne na utilização das artes.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 3" subtitle="Mensagem direta">Em todas as redes sociais, envie mensagem direta para amigos e familiares mais próximos explicando um pouquinho sobre o projeto.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 4" subtitle="Instagram - Link clicável">Para gerar um link clicável no Instagram, primeiro adicione o link do projeto na sua bio. Em seguida, publique um post (ou story) e explique: "Link na bio". <a href="https://www.uol.com.br/tilt/noticias/redacao/2018/08/30/link-na-bio-saiba-o-que-significa-e-como-utilizar-o-truque-no-instagram.htm" target="_blank">Saiba mais</a>.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 5" subtitle="Instagram - Stories">Personalize com GIFs, emoticons e outros toques pessoais para aumentar o dinamismo e engajamento.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 6" subtitle="Whatsapp - Grupos que você administra">Em grupos do Whatsapp que você administra, você podeadicionar o nome do projeto como prefixo do nome do grupo, e assimpara fazer uma divulgação permanente. Exemplo: se altere nome do grupo "Moradores do Bloco D" para "[Árvore do Bem] Moradores do Bloco D". <a href="https://canaltech.com.br/apps/aprenda-a-trocar-o-nome-ou-assunto-de-grupos-do-whatsapp/" target="_blank">Saiba mais</a>.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 7" subtitle="Whatsapp - Outros grupos">Compartilhe as artes juntamente com um texto personalizado de sua autoria, contextualizando o projeto, e preferencialmente em horário que o grupo esteja menos ativo.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 8" subtitle="Whatsapp - Status">Publique dois "status" diferentes, um seguido do outro. O primeiro status contendo apenas a arte, e o segundo contendo o link. Coloque o link dentro da foto, e não na legenda.</MyCard>
 
         </rs.Row>
       </rs.Container>
