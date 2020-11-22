@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import arte1 from './img/arte1.jpg';
 import arte2 from './img/arte2.jpg';
-import arte3 from './img/arte3.jpg';
+import arte3 from './img/arte3-v2.jpg';
 import arte4 from './img/arte4.jpg';
 import arte5 from './img/arte5.jpg';
-import arte6 from './img/arte6.jpg';
-import arte7 from './img/arte7.jpg';
+import arte6 from './img/arte6-v2.jpg';
+import arte7 from './img/arte7-v2.jpg';
 import arte8 from './img/arte8.png';
 
 function App() {
@@ -61,12 +61,12 @@ function App() {
         <MyCard theme={cycleTheme()}  title="Dica 3" subtitle="Mensagem direta">Em todas as redes sociais, envie mensagem direta para amigos e familiares mais próximos explicando um pouquinho sobre o projeto.</MyCard>
         <MyCard theme={cycleTheme()}  title="Dica 4" subtitle="Instagram - Link clicável">Para gerar um link clicável no Instagram, primeiro adicione o link do projeto na sua bio. Em seguida, publique um post (ou story) e explique: "Link na bio". <a href="https://www.uol.com.br/tilt/noticias/redacao/2018/08/30/link-na-bio-saiba-o-que-significa-e-como-utilizar-o-truque-no-instagram.htm" target="_blank">Saiba mais</a>.</MyCard>
         <MyCard theme={cycleTheme()}  title="Dica 5" subtitle="Instagram - Stories">Personalize com GIFs, emoticons e outros toques pessoais para aumentar o dinamismo e engajamento.</MyCard>
-        <MyCard theme={cycleTheme()}  title="Dica 6" subtitle="Whatsapp - Grupos que você administra">Em grupos do Whatsapp que você administra, você podeadicionar o nome do projeto como prefixo do nome do grupo, e assimpara fazer uma divulgação permanente. Exemplo: se altere nome do grupo "Moradores do Bloco D" para "[Árvore do Bem] Moradores do Bloco D". <a href="https://canaltech.com.br/apps/aprenda-a-trocar-o-nome-ou-assunto-de-grupos-do-whatsapp/" target="_blank">Saiba mais</a>.</MyCard>
+        <MyCard theme={cycleTheme()}  title="Dica 6" subtitle="Whatsapp - Grupos que você administra">Em grupos de Whatsapp que você administra e que haja abertura para uma divulgação mais incisiva, você pode adicionar a frase "Árvore do Bem" como prefixo do nome do grupo, e assim fazer uma divulgação permanente. Exemplo: se você é o administrador do grupo "Família Linda", altere o nome para "[Árvore do Bem] Família Linda". <a href="https://canaltech.com.br/apps/aprenda-a-trocar-o-nome-ou-assunto-de-grupos-do-whatsapp/" target="_blank">Saiba mais</a>.</MyCard>
         <MyCard theme={cycleTheme()}  title="Dica 7" subtitle="Whatsapp - Outros grupos">Compartilhe as artes juntamente com um texto personalizado de sua autoria, contextualizando o projeto, e preferencialmente em horário que o grupo esteja menos ativo.</MyCard>
         <MyCard theme={cycleTheme()}  title="Dica 8" subtitle="Whatsapp - Status">Publique dois "status" diferentes, um seguido do outro. O primeiro status contendo apenas a arte, e o segundo contendo o link. Coloque o link dentro da foto, e não na legenda.</MyCard>
 
-        </rs.Row>
-      </rs.Container>
+      </rs.Row>
+    </rs.Container>
     </>
   );
 }
